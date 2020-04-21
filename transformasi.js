@@ -83,6 +83,11 @@ function draw2() {
     contex.stroke();
     
     // 3
+    contex.save();
+    contex.lineWidth=6;
+    contex.strokeRect(650, 350, panjangPP5, tinggiPP5);
+    
+    
    
     
     }
