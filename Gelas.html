@@ -1,2 +1,48 @@
-# gelas_terbuka
-kerja kelompok menggambar gerakan tutup gelas terbuka
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project || Grafika Komputer</title>
+    <style>
+    #canvas{
+        border: 1px solid;
+        width: 900px;
+        height: 550px;
+        background-color: rgb(20, 211, 100);
+
+    }
+    .tombol {
+    position: absolute;
+    bottom: 25%;
+    left: 172px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.tombol1 {
+    cursor: pointer;
+    background-color: rgb(26, 119, 224);
+    width: 50px;
+    height: 20px;
+}
+.tombol2 {
+    cursor: pointer;
+    background-color: rgb(217, 235, 61);
+    width: 50px;
+    height: 20px;
+}
+    </style>
+</head>
+<body>
+    
+<canvas id="canvas"></canvas>
+<div class="tombol">
+    <button id="tombolB" class="tombol1">Buka</button>
+    <button id="tombolT" class="tombol2">Tutup</button>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
