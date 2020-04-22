@@ -104,6 +104,13 @@ function draw2() {
     contex.lineCap='round';
     contex.stroke();
     
+    contex.beginPath();
+    contex.moveTo(698,470);
+    contex.lineTo(698,380);
+    contex.lineWidth=6;
+    contex.lineCap='round';
+    contex.stroke();
+    
     
    
     
