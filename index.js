@@ -30,3 +30,33 @@ function draw1() {
    
 }
 draw1();
+
+function draw(){
+    contex.save();
+    var panjangPP1 = 100;
+    var tinggiPP1 = 150;
+    contex.lineWidth=6;
+    contex.strokeRect(30, 350, panjangPP1, tinggiPP1);
+    contex.beginPath();
+    contex.moveTo(55,470);
+    contex.lineTo(55,380);
+    contex.lineWidth=6;
+    contex.lineCap='round';
+    contex.stroke();
+
+    contex.beginPath();
+    contex.moveTo(80,470);
+    contex.lineTo(80,380);
+    contex.lineWidth=6;
+    contex.lineCap='round';
+    contex.stroke();
+
+    contex.beginPath();
+    contex.moveTo(105,470);
+    contex.lineTo(105,380);
+    contex.lineWidth=6;
+    contex.lineCap='round';
+    contex.stroke();
+    contex.restore();
+}
+draw();
