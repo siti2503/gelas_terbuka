@@ -7,7 +7,25 @@ myCanvas.width=myCanvas.scrollWidth;
 myCanvas.height=myCanvas.scrollHeight;
 var rotation = 0;
 
+function buka() {
+    
+    draw1();
 
+    if(rotation < Math.PI/8.5) {
+        rotation += 0.02;
+        requestAnimationFrame(buka);
+    }
+}
+
+function tutup() {
+    
+    draw1();
+
+    if(rotation > 0) {
+        rotation -= 0.02;
+        requestAnimationFrame(tutup);
+    }
+}
 
 function draw1() { 
     contex.clearRect(20, 74, myCanvas.width, myCanvas.height/2);
