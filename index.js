@@ -7,23 +7,23 @@ myCanvas.width=myCanvas.scrollWidth;
 myCanvas.height=myCanvas.scrollHeight;
 var rotation = 0;
 
-function shapeBuka() {
+function Buka() {
     
     draw1();
     
     if(rotation < Math.PI/8.5) {
         rotation += 0.02;
-        requestAnimationFrame(shapeBuka);
+        requestAnimationFrame(Buka);
     }
 }
 
-function shapeTutup() {
+function Tutup() {
     
     draw1();
     
     if(rotation > 0) {
         rotation -= 0.02;
-        requestAnimationFrame(shapeTutup);
+        requestAnimationFrame(Tutup);
     }
 }
 
