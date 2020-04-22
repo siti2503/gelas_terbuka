@@ -60,3 +60,12 @@ function draw(){
     contex.restore();
 }
 draw();
+
+
+tBuka.addEventListener('click', function() {
+    Buka();
+});
+
+tTutup.addEventListener('click', function() {
+    Tutup();
+});
