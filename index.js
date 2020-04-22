@@ -13,7 +13,7 @@ function shapeBuka() {
     
     if(rotation < Math.PI/8.5) {
         rotation += 0.02;
-        requesAnimationFrame(shapeBuka);
+        requestAnimationFrame(shapeBuka);
     }
 }
 
